@@ -9,13 +9,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var demoData: DemoData
+//    @ObservedObject var demoData: DemoData
+    @State var wifiEnable = false
+    @State var name = ""
+    
     var body: some View {
-        Text("Hello, World!")
+        
+        VStack{
+            Toggle(isOn: $wifiEnable) {
+                Text("Wifi Enable")
+            }
+            TextField("Kt wifi 5g 수정가능", text: $name)
+            Text(name)
+            Image(systemName: wifiEnable ? "wifi" : "wifi.slash")
+            Text("\(demoData.userName) \(demoData.userNumber)")
+        }.padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(DemoData())
     }
 }

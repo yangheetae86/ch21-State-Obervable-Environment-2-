@@ -13,6 +13,7 @@
 		C11BDFDD2484D432005C4BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11BDFDC2484D432005C4BF7 /* Assets.xcassets */; };
 		C11BDFE02484D432005C4BF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11BDFDF2484D432005C4BF7 /* Preview Assets.xcassets */; };
 		C11BDFE32484D432005C4BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11BDFE12484D432005C4BF7 /* LaunchScreen.storyboard */; };
+		C1A6BBC82484D6D0002B5F81 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A6BBC72484D6D0002B5F81 /* DemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C11BDFDF2484D432005C4BF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C11BDFE22484D432005C4BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C11BDFE42484D432005C4BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A6BBC72484D6D0002B5F81 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				C11BDFD62484D430005C4BF7 /* AppDelegate.swift */,
 				C11BDFD82484D430005C4BF7 /* SceneDelegate.swift */,
+				C1A6BBC72484D6D0002B5F81 /* DemoData.swift */,
 				C11BDFDA2484D430005C4BF7 /* ContentView.swift */,
 				C11BDFDC2484D432005C4BF7 /* Assets.xcassets */,
 				C11BDFE12484D432005C4BF7 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A6BBC82484D6D0002B5F81 /* DemoData.swift in Sources */,
 				C11BDFD72484D430005C4BF7 /* AppDelegate.swift in Sources */,
 				C11BDFD92484D430005C4BF7 /* SceneDelegate.swift in Sources */,
 				C11BDFDB2484D430005C4BF7 /* ContentView.swift in Sources */,
